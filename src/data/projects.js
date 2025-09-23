@@ -23,30 +23,30 @@ Vivamus a neque accumsan, fermentum justo in, tempus eros. Aenean in tincidunt j
 Mauris ut lacinia dolor. Ut malesuada velit vel eros eleifend, eget convallis quam auctor. Aliquam volutpat nulla magna, id ultrices eros fermentum vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nunc quam, viverra et venenatis nec, commodo a nisl. Nunc sapien felis, gravida aliquet pretium et, imperdiet ac quam.
 
 Maecenas nec tellus sodales, posuere elit at, placerat arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ac ex ultricies, auctor ligula nec, dictum ligula. Praesent placerat dignissim justo, id luctus nunc accumsan in. Curabitur ac sollicitudin diam, at suscipit metus. Nullam iaculis finibus nibh a sollicitudin. Aenean tempus, ipsum et rutrum vulputate, ligula nunc commodo nunc, vel faucibus lorem felis non libero. Mauris et ligula est. Morbi luctus lobortis nisl eget semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut nec nunc id eros pulvinar aliquam ac ac erat.`,
-    image: '/img/proyecto1.jpg',
-    gallery: ['/img/proyecto1.jpg', '/img/1.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg', '/img/2.jpg'], // opcional
-    video: '/videos/facepalm.mp4', // opcional
+    image: 'img/proyecto1.jpg',
+    gallery: ['img/proyecto1.jpg', 'img/1.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg', 'img/2.jpg'], // opcional
+    video: 'videos/facepalm.mp4', // opcional
     link: '/project/1'
   },
   {
     id: 2,
     title: 'Proyecto 2',
     description: 'Descripción corta del proyecto 1',
-    image: '/img/proyecto1.jpg', // ruta de imagen
+    image: 'img/proyecto1.jpg', // ruta de imagen
     link: '/project/2'
   },
   {
     id: 3,
     title: 'Proyecto 3',
     description: 'Descripción corta del proyecto 1',
-    image: '/img/proyecto1.jpg', // ruta de imagen
+    image: 'img/proyecto1.jpg', // ruta de imagen
     link: '/project/3'
   },
   {
     id: 4,
     title: 'Proyecto 4',
     description: 'Descripción corta del proyecto 1',
-    image: '/img/proyecto1.jpg', // ruta de imagen
+    image: 'img/proyecto1.jpg', // ruta de imagen
     link: '/project/4'
   }
 ]
