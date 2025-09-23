@@ -32,7 +32,7 @@ export default function About() {
         }}
       >
         <img
-          src="/img/profile.jpg"
+          src="img/profile.jpg"
           alt="Adrián Mora"
           style={{
             width: '100%',
