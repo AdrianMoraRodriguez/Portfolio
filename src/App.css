@@ -1,0 +1,93 @@
+/* Importa la fuente Inter en index.html */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset y tipografía global */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #f9fafb; /* color de fondo claro */
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  backdrop-filter: blur(10px);
+}
+
+/* Hero / Secciones */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+/* Cards de proyectos */
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.card img,
+.card video {
+  border-radius: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 280px;
+}
+
+/* Tipografía */
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+p {
+  color: #555;
+}
+
+/* Grid portfolio */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media(min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Footer */
+footer {
+  font-size: 0.875rem;
+  color: #888;
+}
+
+/* Utilidades */
+.text-center { text-align: center; }
+.space-y-20 > * + * { margin-top: 5rem; }
