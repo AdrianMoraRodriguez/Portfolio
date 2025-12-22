@@ -3,35 +3,35 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # O tu rama principal (puede ser "master" u otra rama)
+      - main  # O la rama que estés utilizando para desplegar tu sitio
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      # Paso 1: Checkout del código
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Paso 2: Configuración de Node.js (si tu proyecto lo requiere)
-      - name: Set up Node.js
+      - name: Set up Node.js (si usas Node.js)
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Usa la versión de Node.js que necesitas
+          node-version: '20'  # Cambia esto a la versión que necesites
 
-      # Paso 3: Instalar dependencias
       - name: Install dependencies
-        run: npm install
+        run: npm install  # O 'npm ci' si prefieres
 
-      # Paso 4: Construir el proyecto
-      - name: Build project
-        run: npm run build  # Usa el comando correcto para tu proyecto
+      - name: Build the project
+        run: npm run build  # Asegúrate de que este comando genera tu página estática
 
-      # Paso 5: Desplegar a GitHub Pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./dist  # Cambia esto según la ruta de tu carpeta de build (por ejemplo, "build" o "dist")
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Usa el token que GitHub proporciona automáticamente
+          publish_dir: ./dist  # Cambia esto si tu carpeta de salida es diferente (por ejemplo, 'build')
