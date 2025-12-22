@@ -19,7 +19,7 @@ Una de las características más destacadas de Flow Production Tracking es su ca
 Sin embargo, es importante tener en cuenta que Flow Production Tracking no tiene como objetivo eliminar el caos creativo inherente al desarrollo de videojuegos. La creatividad es un aspecto fundamental en la industria, y Flow no busca imponer restricciones. Lo que sí hace es hacerlo visible y gestionable. Con una correcta implementación, Flow puede convertirse en una herramienta clave para escalar equipos, mejorar la comunicación y asegurar que el proyecto siga avanzando sin comprometer la salud o el bienestar del equipo de desarrollo.\n
 
 En resumen, Flow Production Tracking es más que una herramienta de gestión. Es un facilitador que permite a los equipos de videojuegos trabajar de manera más eficiente, organizada y colaborativa. Bien utilizado, puede ser la clave para mantener el rumbo del proyecto, alineando el progreso técnico y artístico, mientras se minimizan los riesgos y problemas que pueden surgir durante el proceso de desarrollo. Su verdadero valor radica en su capacidad para ofrecer visibilidad, control y, sobre todo, un entorno de trabajo más fluido y menos caótico. Y lo mejor de todo: todo esto sin sofocar el proceso creativo, permitiendo que el equipo mantenga su foco en lo más importante: sacar el proyecto adelante de manera exitosa y sin quemar al equipo en el proceso.`,
-    image: 'img/sh_img.png', 
+    image: 'img/fpt.png', 
     gallery: ['img/sh_1.jpg', 'img/sh_2.png', 'img/sh_3.png', 'img/sh_4.png'], // opcional
     link: '/project/1'
   },
