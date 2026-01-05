@@ -26,9 +26,17 @@ En resumen, Flow Production Tracking es más que una herramienta de gestión. Es
   {
     id: 2,
     title: 'Proyecto 2',
-    description: 'Descripción corta del proyecto 1',
-    image: 'img/proyecto1.jpg', // ruta de imagen
-    video: 'videos/facepalm.mp4', // opcional
+    description: 'Transformación de una escena urbana en Twinmotion, enfocada en circulación, ambientación y realismo visual.',
+    details: `En este ejercicio partíamos de una escena base y el objetivo era transformarla en un entorno más coherente y realista, tanto a nivel visual como funcional. A partir de esa base, trabajé la circulación peatonal y de vehículos, creando caminos y trayectorias que reflejaran un uso plausible del espacio.
+
+Posteriormente, fui enriqueciendo la escena con distintos elementos urbanos: señales de tráfico, semáforos, farolas, bolardos, papeleras, zonas verdes y áreas de juegos infantiles, entre otros. También actualicé los materiales de los edificios para mejorar su integración con el entorno y añadí personajes individuales y grupos de personas con el fin de dotar al conjunto de mayor dinamismo.
+
+Un aspecto clave del proyecto fue la creación de diferentes atmósferas. Preparé dos versiones de la escena: una diurna, luminosa y clara, y otra nocturna, con lluvia y niebla, que permite analizar el comportamiento de la iluminación y la percepción general del espacio bajo condiciones climáticas adversas.
+
+Para complementar el trabajo, realicé una secuencia de vídeo que recorre la escena y presenta las principales decisiones tomadas en cuanto a composición, materiales, circulación y ambientación.`,
+    image: 'img/TM.png', // ruta de imagen
+    gallery: ['img/TM1.png', 'img/TM2.png', 'img/TM3.png', 'img/TM4.png', 'img/TM5.png', 'img/TM6.png'],
+    video: 'videos/TMVid.mp4', // opcional
     link: '/project/2'
   },
   {
