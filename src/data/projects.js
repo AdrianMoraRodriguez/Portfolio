@@ -42,7 +42,7 @@ Para complementar el trabajo, realicé una secuencia de vídeo que recorre la es
   {
     id: 3,
     title: 'Sketches of Life',
-    description: 'Un prototipo de videojuego 2D en el que el dibujo se convierte en una herramienta física para resolver niveles de forma creativa mientras el personaje evoluciona como artista a lo largo del juego',
+    description: 'Un prototipo de videojuego 2D para la asignatura FDV en el que el dibujo se convierte en una herramienta física para resolver niveles de forma creativa mientras el personaje evoluciona como artista a lo largo del juego',
     details: `Este proyecto consiste en el desarrollo de un prototipo de videojuego 2D realizado en Unity cuyo objetivo principal es explorar nuevas formas de interacción entre el jugador y el entorno mediante el uso creativo del dibujo y la física. El juego plantea una experiencia de plataformas en la que el jugador debe alcanzar la salida de cada nivel tras recoger tres tartas repartidas por el escenario, combinando habilidad, planificación y resolución de puzles.
 
 El elemento más distintivo del juego es su estructura de doble fase de gameplay. En la primera fase, el jugador no puede mover al personaje, pero sí dibujar libremente sobre el escenario utilizando el ratón. Estos dibujos no son meramente decorativos, sino que se transforman en objetos físicos con colisiones, masa y comportamiento dinámico. En la segunda fase, el jugador pasa al control directo del personaje y debe superar el nivel utilizando las estructuras que ha creado previamente, lo que fomenta una planificación previa y un enfoque creativo para resolver cada situación.
@@ -62,8 +62,8 @@ El sistema de progresión se basa en la recolección de tartas, que quedan regis
 En el apartado técnico, el proyecto hace un uso intensivo de una arquitectura basada en eventos para desacoplar los distintos sistemas del juego. La comunicación entre el personaje, la interfaz, el audio, las cámaras y la lógica de progresión se realiza mediante eventos globales, lo que facilita el mantenimiento del código y su posible ampliación futura. Este enfoque permite que cada sistema funcione de manera independiente sin depender directamente de otros componentes.
 
 El control de cámaras se ha implementado utilizando Cinemachine, lo que permite un seguimiento suave del jugador y un encuadre dinámico de varios elementos importantes del nivel. En determinados momentos, como al finalizar un nivel, la cámara cambia su comportamiento para destacar los objetivos conseguidos, reforzando visualmente el éxito del jugador. Además, se ha implementado un sistema de parallax para dar mayor profundidad visual al escenario final.`,
-    image: 'img/FDV/Sketches of Life.jpeg', // ruta de imagen
-    gallery: ['img/FDV/1L.png', 'img/FDV/1P.png', 'img/FDV/2L.png', 'img/FDV/2P.png', 'img/FDV/3L.png', 'img/FDV/3P.png'],
+    image: 'img/FDV/Sketches-of-Life.jpg', // ruta de imagen
+    gallery: ['img/FDV/Sketches-of-Life.jpg','img/FDV/1L.png', 'img/FDV/1P.png', 'img/FDV/2L.png', 'img/FDV/2P.png', 'img/FDV/3L.png', 'img/FDV/3P.png'],
     video: 'videos/FDV.mp4',
     link: '/project/3'
   },
